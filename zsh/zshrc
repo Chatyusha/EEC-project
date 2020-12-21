@@ -1,0 +1,27 @@
+export HISTSIZE=25
+export NNNPYTHON="/Users/hiroaki/Documents/virtualPython/NewralNetWorking/bin/activate"
+
+alias ls='ls -FG'
+alias ll='ls -alFG'
+alias gcc='gcc-10'
+alias g++='g++-10'
+
+PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
+
+function lss () {
+	ls -FG | sort
+}
+
+function mkcd () {
+	mkdir $1
+	cd $1	
+}
+
+
+#---------------------------------
+#HISTORY SETTINGS
+#---------------------------------
+setopt HIST_IGNORE_SPACE
+export HISTFILE=${HOME}/.zsh_history
+export SAVEHIST=100000
+setopt hist_ignore_dups
