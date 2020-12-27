@@ -1,10 +1,5 @@
-export HISTSIZE=25
-export NNNPYTHON="/Users/hiroaki/Documents/virtualPython/NewralNetWorking/bin/activate"
-
 alias ls='ls -FG'
 alias ll='ls -alFG'
-alias gcc='gcc-10'
-alias g++='g++-10'
 
 PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
 
