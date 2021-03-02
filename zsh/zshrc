@@ -1,20 +1,18 @@
-export HISTSIZE=25
-export PYENV_ROOT="$HOME/Library/Python"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-export NVIM=/root/.config/nvim
-export PATH="/root/bin:$PATH"
+conf="$HOME/Library/Shell/zsh"
 
-alias ls='ls --color=auto -FG'
-alias sl='ls'
+if [ -e "$conf/src/env" ];then
+	source "$conf/src/env"
+	echo "loaded environmental config file."
+fi
 
-PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
+if [ -e "$conf/src/pyrc" ];then
+	source "$conf/src/pyrc"
+	echo "loaded python config file."
+fi
+
+if [ -e "$conf/src/vim" ];then
+	source "$conf/src/vim"
+	echo "loaded vim config file."
+fi
 
 
-#---------------------------------
-#HISTORY SETTINGS
-#---------------------------------
-setopt HIST_IGNORE_SPACE
-export HISTFILE=${HOME}/Library/Shell/zsh/.zsh_history
-export SAVEHIST=100000
-setopt hist_ignore_dups

@@ -1,0 +1,26 @@
+#{{{ ENVIRONMENTAL
+export PATH="/root/Library/bin:$PATH"
+PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
+
+export LIBRARY="$HOME/Library"
+export SHELLLIB="$LIBRARY/Shell"
+export NEOVIMLIB="$LIBRARY/Neovim"
+#}}}
+
+#{{{ HISTORY
+export HISTSIZE=500
+setopt HIST_IGNORE_SPACE
+export HISTFILE="$SHELLLIB/zsh/zsh_history"
+export SAVEHIST=100000
+setopt hist_ignore_dups
+#}}}
+
+#{{{ ALIASES
+alias ls='ls --color=auto -FG'
+alias sl='ls'
+#}}}
+
+#{{{ COMPLETION
+autoload -U compinit
+compinit
+#}}}
