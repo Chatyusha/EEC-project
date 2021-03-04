@@ -1,8 +1,7 @@
 #{{{ ENVIRONMENTAL
-export PATH="/root/Library/bin:$PATH"
+export PATH="$LIBRARY/bin:$PATH"
 PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
 
-export LIBRARY="$HOME/Library"
 export SHELLLIB="$LIBRARY/Shell"
 export NEOVIMLIB="$LIBRARY/Neovim"
 #}}}

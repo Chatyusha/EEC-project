@@ -1,4 +1,5 @@
-conf="$HOME/Library/Shell/zsh"
+export LIBRARY="$HOME/Library"
+conf="$LIBRARY/Shell/zsh"
 
 if [ -e "$conf/src/env" ];then
 	source "$conf/src/env"

@@ -1,5 +1,5 @@
 #{{ ENVIRONMENTAL
-export PYENV_ROOT="$HOME/Library/Python"
+export PYENV_ROOT="$LIBRARY/Python"
 export PATH="$PYENV_ROOT/bin:$PATH"
 #}}
 
