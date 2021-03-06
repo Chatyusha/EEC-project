@@ -2,3 +2,6 @@
 
  - bash
  - zsh
+
+ ---
+## How to Install 
