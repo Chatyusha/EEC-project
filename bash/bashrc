@@ -10,3 +10,4 @@ export HISTFILE="$LIBRARY/Shell/bash/bash_history"
 
 alias ls='ls --color=auto -FG'
 alias sl='ls'
+
