@@ -1,2 +1,5 @@
 zsh/zsh_history
 bash/bash_history
+bash/
+src/
+doc/

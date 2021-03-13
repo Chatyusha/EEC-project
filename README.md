@@ -1,7 +1,8 @@
 # RUN COMMAND SHELL SCRIPTS
 
- - bash
- - zsh
+	- zsh
 
  ---
-## How to Install 
+## How to Use
+
+
