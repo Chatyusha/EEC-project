@@ -30,6 +30,7 @@ Replace the first line of zshrc with 'export LIBRARY=\<target-library\>'
 ### STATE_PYENV
 
 If you use pyenv, set optioin `state_pyenv=1` or not `state_pyenv=0`
+
 ---
 
 
