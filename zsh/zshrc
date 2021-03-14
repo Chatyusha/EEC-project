@@ -1,6 +1,10 @@
 export LIBRARY="$HOME/Library"
 conf="$LIBRARY/Shell/zsh"
 
+state_pyenv=1
+state_vim=1
+state_bin=1
+
 if [ -e "$conf/src/env" ];then
 	source "$conf/src/env"
 	echo "loaded environmental config file."
@@ -16,4 +20,8 @@ if [ -e "$conf/src/vim" ];then
 	echo "loaded vim config file."
 fi
 
+if [ -e "$conf/src/bin" ];then
+	source "$conf/src/bin"
+	echo "append path"
+fi
 
