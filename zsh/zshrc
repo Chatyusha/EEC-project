@@ -10,17 +10,17 @@ if [ -e "$conf/src/env" ];then
 	echo "loaded environmental config file."
 fi
 
-if [ -e "$conf/src/pyrc" ];then
+if [ -e "$conf/src/pyrc"  -a $state_pyenv -eq 1 ];then
 	source "$conf/src/pyrc"
 	echo "loaded python config file."
 fi
 
-if [ -e "$conf/src/vim" ];then
+if [ -e "$conf/src/vim" -a $state_vim -eq 1 ];then
 	source "$conf/src/vim"
 	echo "loaded vim config file."
 fi
 
-if [ -e "$conf/src/bin" ];then
+if [ -e "$conf/src/bin" -a $state_bin -eq 1 ];then
 	source "$conf/src/bin"
 	echo "append path"
 fi
