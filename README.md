@@ -23,10 +23,13 @@ Replace the first line of zshrc with 'export LIBRARY=\<target-library\>'
 
 # Set Options
 
-- [state_pyenv](####STATE_PYENV)
+- [state_pyenv](###STATE_PYENV)
 - state_vim
 - state_bin
 
-#### STATE_PYENV
+### STATE_PYENV
+
+If you use pyenv, set optioin `state_pyenv=1` or not `state_pyenv=0`
 ---
+
 
