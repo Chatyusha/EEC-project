@@ -1,0 +1,4 @@
+#{{{ ENVIRONMENTAL
+export NVIM=$HOME/.config/nvim
+export NEOVIMLIB="$LIBRARY/Neovim"
+#}}}

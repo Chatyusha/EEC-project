@@ -1,8 +1,0 @@
-export PYENV_ROOT="$HOME/Library/Python"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-export NVIM=/root/.config/nvim
-export PATH="/root/bin:$PATH"
-export PS1='\[\e[0;34m\]\u\[\e[0;37m\]@\[\e[0;36m\]\h:\[\e[0;32m\]\w \[\e[0;37m\]$ '
-
-alias ls='ls --color=auto -FG'
