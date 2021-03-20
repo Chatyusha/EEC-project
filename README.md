@@ -19,10 +19,11 @@ Replace the first line of zshrc with 'export LIBRARY=\<target-library\>'
 
 
 # Set Options
+|  state  |  value  |
+| ------- | ------- |
+|  enable | 1       |
+|  disable| 0       |
 
-ENABLE:`1`
-
-DISABLE:`0`
 
 - [STATE_PYENV](###STATE_PYENV)
 - [STATE_VIM](###STATE_VIM)
