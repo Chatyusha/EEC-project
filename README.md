@@ -2,7 +2,6 @@
 
 - zsh
 
- ---
 
 # Support
 
@@ -10,7 +9,6 @@
 - neovim
 - zsh
 
----
 
 # How to Use
 
@@ -19,18 +17,22 @@
 
 Replace the first line of zshrc with 'export LIBRARY=\<target-library\>'
 
----
 
 # Set Options
 
-- [state_pyenv](###STATE_PYENV)
-- state_vim
+ENABLE:`1`
+
+DISABLE:`0`
+
+- [STATE_PYENV](###STATE_PYENV)
+- [STATE_VIM](###STATE_VIM)
 - state_bin
 
 ### STATE_PYENV
 
-If you use pyenv, set optioin `state_pyenv=1` or not `state_pyenv=0`
+If you use pyenv, set optioin `STATE_PYENV=1` or not `STATE_PYENV=0`
 
----
+### STATE_VIM
 
+If you use vim or neovim, set option `STATE_VIM=1` or not `STATE_VIM=0`
 
