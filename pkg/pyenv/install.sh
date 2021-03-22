@@ -1,8 +1,8 @@
 #!/bin/bash -ex
 
-sudo apt update
-sudo apt upgrade
-sudo apt install -y \
+apt update
+apt upgrade
+apt install -y \
 build-essential \
 libffi-dev \
 libssl-dev \
