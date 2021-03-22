@@ -1,12 +1,12 @@
 #{{{ CUSTOM SETTING
-export LIBRARY="$HOME/Library"
+export HOME_LIBRARY="$HOME/Library"
 
 export STATE_PYENV=1
 export STATE_VIM=1
 export STATE_BIN=1
 #}}}
 
-conf="$LIBRARY/Shell/zsh"
+conf="$HOME_LIBRARY/Shell/zsh"
 
 if [ -e "$conf/src/env" ];then
 	source "$conf/src/env"

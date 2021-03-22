@@ -1,7 +1,7 @@
 #{{{ ENVIRONMENTAL
 PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
 
-export SHELLLIB="$LIBRARY/Shell"
+export SHELLLIB="$HOME_LIBRARY/Shell"
 #}}}
 
 #{{{ HISTORY
@@ -17,7 +17,7 @@ alias ls='ls --color=auto -FG'
 alias sl='ls'
 alias rm='MvTrash'
 MvTrash () {
-	mv "$1" "$LIBRARY/.Trash/"
+	mv "$1" "$HOME_LIBRARY/.Trash/"
 }
 #}}}
 
