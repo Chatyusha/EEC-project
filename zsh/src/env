@@ -1,9 +1,7 @@
 #{{{ ENVIRONMENTAL
-export PATH="$LIBRARY/bin:$PATH"
 PROMPT='%F{blue}%m%f@%F{cyan}%n%f:%F{green}%c%f $ '
 
 export SHELLLIB="$LIBRARY/Shell"
-export NEOVIMLIB="$LIBRARY/Neovim"
 #}}}
 
 #{{{ HISTORY
@@ -17,6 +15,10 @@ setopt hist_ignore_dups
 #{{{ ALIASES
 alias ls='ls --color=auto -FG'
 alias sl='ls'
+alias rm='MvTrash'
+MvTrash () {
+	mv "$1" "$LIBRARY/.Trash/"
+}
 #}}}
 
 #{{{ COMPLETION
