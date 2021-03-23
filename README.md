@@ -1,13 +1,20 @@
-# RUN COMMAND SHELL SCRIPTS
+# WHAT IS EEC
+
+EEC stands for Easy Environment Creation.
+
+The goal of this project is to make it easy for anyone to build a development environment.
+
+# Support Shell
 
 - zsh
 
 
 # Support
 
-- pyenv
-- neovim
 - zsh
+  - pyenv
+  - neovim
+  - zsh
 
 
 # How to Use
