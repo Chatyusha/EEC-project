@@ -22,7 +22,7 @@ The goal of this project is to make it easy for anyone to build a development en
 `$ mkdir <target-directory>`, (for example, `$ mkdir ~/Library`),
 `$ cd <target-directory>`, and `$ git clone https://github.com/Chatyusha/Shell.git Shell`
 
-Replace the first line of zshrc with `export LIBRARY=<target-library>`
+Replace the first line of zshrc with `export HOME_LIBRARY=<target-library>`
 
 
 # Set Options

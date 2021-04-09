@@ -13,7 +13,7 @@ libreadline-dev \
 libsqlite3-dev \
 git
 
-git clone https://github.com/pyenv/pyenv.git "$LIBRARY/Python"
+git clone https://github.com/pyenv/pyenv.git "$HOME_LIBRARY/Python"
 
 echo "Enable \`STATE_PYENV\` and run \`source ~/.zshrc\`."
 echo "Run \`pyenv install <python version>\`, for example, \`pyenv install 3.8.0\`."

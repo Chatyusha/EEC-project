@@ -4,6 +4,7 @@ export HOME_LIBRARY="$HOME/Library"
 export STATE_PYENV=1
 export STATE_VIM=1
 export STATE_BIN=1
+export STATE_RUBY=1
 #}}}
 
 conf="$HOME_LIBRARY/Shell/zsh"
@@ -16,6 +17,11 @@ fi
 if [ -e "$conf/src/pyrc"  -a $STATE_PYENV -eq 1 ];then
 	source "$conf/src/pyrc"
 	echo "loaded python config file."
+fi
+
+if [ -e "$conf/src/ruby" -a $STATE_RUBY -eq 1 ];then
+	source "$conf/src/ruby"
+	echo "loaded Ruby config file."
 fi
 
 if [ -e "$conf/src/vim" -a $STATE_VIM -eq 1 ];then
