@@ -24,6 +24,13 @@ The goal of this project is to make it easy for anyone to build a development en
 
 Replace the first line of zshrc with `export HOME_LIBRARY=<target-library>`
 
+## UsePyenv
+	
+	`zsh ./Shell/pkg/pyenv/install.sh`
+
+## UseNeovim
+
+	`zhs ./Shell/pkg/neovim/install.sh`
 
 # Set Options
 |  state  |  value  |
